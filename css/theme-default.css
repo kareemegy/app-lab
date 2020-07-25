@@ -13,6 +13,7 @@ body {
   padding: 0px;
   margin: 0px;
   color: white;
+  height: 3000px;
 }
 .nav-container {
   padding: 20px 200px;
@@ -40,13 +41,13 @@ a {
   text-decoration: none;
   outline: none;
 }
-.header_btn {
+.nav_btn {
   background-color: #42b3fa;
   padding: 12px 20px;
   font-size: 14px;
   transition: background-color 0.6s;
 }
-.header_btn:hover {
+.nav_btn:hover {
   transition: background-color 0.6s;
   background-color: #4ba8fd;
   border: 1px solid #4ba8fd;
