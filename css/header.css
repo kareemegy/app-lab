@@ -1,9 +1,9 @@
 header {
   height: 900px;
   background-image: url("../assets/img/banner/banner.png");
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: cover;
+  background-position: center center;
   font-size: 1.3rem;
 }
 
@@ -29,6 +29,13 @@ nav :nth-child(3) {
   justify-content: flex-end;
   align-items: center;
 }
+
+nav :nth-child(3) svg {
+  height: 50px;
+  width: 50px;
+  fill: white;
+  visibility: hidden;
+}
 header section {
   display: flex;
 }
@@ -45,13 +52,13 @@ header section {
 }
 .header_section h3 {
   font-size: 1.3rem;
-  font-weight: 200;
+  font-weight: 400;
   margin: 10px 0px 50px 0px;
 }
 section img {
   margin-top: 100px;
 }
-/*  Hedaer Media Querys */
+/*  Header Media Querys */
 
 @media screen and (max-width: 1500px) {
   nav {
@@ -98,8 +105,26 @@ section img {
   }
 }
 
-
 @media screen and (max-width: 991px) {
+  nav {
+    background-color: #2c2c2c;
+    margin: 0px !important;
+    padding: 10px !important;
+    /* grid-template-columns: repeat(2, 1fr); */
+  }
+  
+  nav ul li a {
+    display: none;
+  }
+
+  .nav_btn {
+    display: none;
+  }
+
+  nav :nth-child(3) svg {
+    visibility: visible;
+  }
+
   .container {
     max-width: 720px;
   }
@@ -107,17 +132,48 @@ section img {
   header {
     height: 600px;
   }
-  .header_section h1 {
-    font-size: 1.4rem;
-    font-weight: 400 !important;
+  .header_section {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    margin-top: 15px;
   }
+  .header_section h1 {
+    font-size: 1.7rem;
+    font-weight: 300 !important;
+  }
+
   .header_section h3 {
     font-size: 1rem;
-    font-weight: 400 !important;
+    font-weight: 300 !important;
   }
   section img {
     height: 500px;
-    margin-top: 100px;
+    margin-top: 0px;
+    padding-top: 0px;
+    position: absolute;
+    top: 163px;
+    left: 553px;
+  }
+  /* nav :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 220px;
+}
+  .menu {
+    position: absolute;
+    z-index: 500;
+    top: 70px;
+    left: 100px;
+    width: 800px;
+    height: 200px;
+    background-color: white;
   }
 
+  .menu li {
+    color: black;
+  } */
 }

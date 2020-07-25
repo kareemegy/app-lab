@@ -1,6 +1,6 @@
 /* theme defaults */
 @import "theme-default.css";
-
+@import "utility-classes.css";
 
 /* header */
 @import "header.css"
