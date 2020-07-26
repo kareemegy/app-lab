@@ -26,3 +26,8 @@ navMenu.addEventListener("click", () => {
     toggleMenu = false;
   }
 });
+
+
+// window.addEventListener("load",()=>{
+//   console.log("done")
+// })

@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>App Lab</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
@@ -13,7 +17,7 @@
       <nav class="nav-container">
         <img src="assets/img/logo.png" alt="" />
         <!-- add class menu there kimoooo -->
-        <ul id="nav_ul" > 
+        <ul id="nav_ul">
           <li><a href="#">Home</a></li>
           <li><a href="#">Features</a></li>
           <li><a href="#">Pricing</a></li>
@@ -38,19 +42,28 @@
       <!-- Nav -->
       <!-- Header Section -->
       <section class="container">
-        <div class="header_section">
+        <div class="header_section wow  animate__animated  animate__fadeIn animate__slow">
           <h1>Promote Your App With Applab</h1>
           <h3>Get more users to promote your app with this template</h3>
           <div>
             <a href="#" class="hedaer_section_btn">Get Start Now</a>
           </div>
         </div>
-        <img src="assets/img/ilstrator/phone.png" alt="" />
+        <img
+          class="wow  animate__animated animate__bounceIn"
+          src="assets/img/ilstrator/phone.png"
+          alt=""
+        />
       </section>
       <!-- Header Section -->
     </header>
     <!-- End Header -->
-
-    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/main.js">
+     
+    </script>
   </body>
 </html>
