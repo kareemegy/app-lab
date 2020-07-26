@@ -3,4 +3,8 @@
 @import "utility-classes.css";
 
 /* header */
-@import "header.css"
+@import "header.css";
+/* time features section */
+@import "time-features-section.css";
+/* details featuresr */
+@import "details-featuresr.css";

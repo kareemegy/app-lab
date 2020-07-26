@@ -1,0 +1,34 @@
+.details-featuresr {
+  margin-top: 250px;
+  color: #2c2c2c;
+}
+.wrapper {
+  display: flex;
+}
+.wrapper h3 {
+  font-size: 3.8rem;
+  font-weight: 300;
+  color: #2c2c2c;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.wrapper p {
+  font-size: 1.3rem;
+  color: #727272;
+}
+.wrapper a {
+  width: 120px;
+  border-radius: 5px;
+  background: #0181f5;
+  color: #fff;
+
+}
+.wrapper div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.wrapper img {
+  width: 100%;
+  /* height: 300px; */
+}

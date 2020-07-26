@@ -42,5 +42,6 @@ a {
   outline: none;
 }
 
-
-
+::selection {
+  background: #092742;
+}
