@@ -1,7 +1,10 @@
 .details-featuresr {
   margin-top: 250px;
   color: #2c2c2c;
+  /* display: grid;
+  grid-template-columns: 2fr 1fr; */
 }
+
 .wrapper {
   display: flex;
 }
@@ -30,5 +33,10 @@
 }
 .wrapper img {
   width: 100%;
-  /* height: 300px; */
 }
+@media screen and (max-width:991px){
+  .container .time-features-section {
+    max-width: 720px;
+  }
+   
+ }
