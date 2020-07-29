@@ -1,6 +1,4 @@
 .time-features-section {
-  /* display: flex;
-  flex-direction: column; */
   display: grid;
   grid-template-columns: repeat(1, auto);
   margin-top: 4rem;
@@ -14,9 +12,6 @@
   margin-top: 100px;
 }
 .section_icon {
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
   display: grid;
   grid-template-columns: repeat(3, auto);
   font-size: 1.4rem;
@@ -48,6 +43,18 @@
   border-radius: 20px;
 }
 
+@media screen and (max-width: 1140px) {
+  .section_icon {
+    gap: 2rem;
+  }
+  .section_icon p {
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  .section_icon img {
+   margin-right: 0px;
+  }
+}
 @media screen and (max-width: 991px) {
   .container .time-features-section {
     max-width: 720px;

@@ -157,7 +157,6 @@ section img {
     padding-top: 0px;
     position: absolute;
     top: 163px;
-    /* left: 406px; */
     left: 597px;
   }
 
@@ -199,4 +198,7 @@ section img {
 
 /* still not done :) */
 @media screen and (max-width: 767px) {
+  section img {
+    left: 426px;
+  }
 }

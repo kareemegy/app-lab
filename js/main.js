@@ -27,6 +27,12 @@ navMenu.addEventListener("click", () => {
   }
 });
 
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel({
+    items:1,
+    // autoplay:true
+  });
+});
 
 // window.addEventListener("load",()=>{
 //   console.log("done")

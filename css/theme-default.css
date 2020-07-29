@@ -13,7 +13,7 @@ body {
   padding: 0px;
   margin: 0px;
   color: white;
-  height: 3000px;
+  height: 6000px;
 }
 .nav-container {
   padding: 20px 200px;
@@ -43,5 +43,7 @@ a {
 }
 
 ::selection {
-  background: #092742;
+  background: #444;
+  color: #fff;
+  text-shadow: none;
 }
