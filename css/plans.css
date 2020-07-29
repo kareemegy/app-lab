@@ -1,0 +1,100 @@
+.plans-section {
+  margin-top: 100px;
+  color: #2c2c2c;
+  padding: 0px 20px 0px 20px;
+}
+.flex-plans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans-section div h3 {
+  font-size: 2.9rem;
+  font-weight: 300;
+  margin: 20px 0px 20px 0px;
+}
+.plans-section div p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+/* Start plans boxes */
+
+.all-plans {
+  display: flex;
+  margin-top: 100px !important;
+}
+.plan {
+  width: 400px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.plan_details_hedaer {
+  background: #e9f4fe;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px 0px 15px;
+}
+.plan_details_hedaer h3 {
+  font-size: 1.8rem !important;
+  font-weight: 300 !important;
+}
+.plan_details_hedaer span {
+  color: #0181f5;
+  display: flex;
+  align-items: center;
+  font-weight: 300 !important;
+  font-size: 1.8rem;
+}
+
+.plan_details_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.plan_details_body li {
+  padding: 24px;
+}
+
+.plan :nth-child(3) {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+.plan_btn {
+  font-size: 1rem;
+  color: #5db2ff;
+  border: 1px solid #5db2ff;
+  border-radius: 5px;
+  padding: 10px 30px 10px 30px;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+.plan_btn:hover {
+  background-color: #5db2ff;
+  color: #fff;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+.team_plan {
+  transform: translateY(-39px);
+}
+.team_plan .plan{
+    height: 580px;
+}
+.team_plan .plan_details_hedaer {
+  background: #fef4ee;
+}
+.team_plan .plan_details_hedaer span {
+  color: #fdae5c;
+}
+
+.business_plan .plan_details_hedaer {
+  background: #e8fcf1;
+}
+.business_plan .plan_details_hedaer span {
+  color: #00d363;
+}
+/* End plans boxes */
