@@ -1,0 +1,26 @@
+.get-started-bg{
+    background-image: url("../assets/img/banner/product.png");
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+.get-start {
+  color: #fff;
+
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+  /* display: grid;
+  grid-template-columns: repeat(2, auto); */
+}
+
+/* .get-start div a img {
+  height: 100%;
+  width: 100%;
+} */
+
+.get-start div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
