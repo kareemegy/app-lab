@@ -1,0 +1,38 @@
+.footer-bg {
+  background: #1f1f1f;
+  height: 500px;
+}
+
+.footer {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer div h3 {
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+.footer div ul li {
+  padding: 10px 10px 10px 0px;
+}
+.footer div ul li a {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.h3 {
+  font-size: 1rem !important;
+  margin-top: 41px;
+}
+.m-90 {
+  margin-bottom: 90px !important;
+}
+.flex-col-footer {
+  align-self: center;
+}
+.soical-icons li a i {
+  font-size: 1.5rem;
+  padding: 5px;
+}
+.soical-icons {
+  display: flex;
+}
