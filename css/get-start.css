@@ -2,25 +2,30 @@
     background-image: url("../assets/img/banner/product.png");
     background-size: cover;
     background-position: center center;
-    width: 100%;
 }
 .get-start {
   color: #fff;
-
-  /* display: flex; */
-  /* justify-content: center;
-  align-items: center; */
-  /* display: grid;
-  grid-template-columns: repeat(2, auto); */
+  height: 400px;
+  display: flex;
 }
 
-/* .get-start div a img {
-  height: 100%;
-  width: 100%;
-} */
-
 .get-start div {
+  width: 100%;
   display: flex;
+  justify-content: flex-end;
   align-items: center;
-  justify-content: center;
+}
+.get-start h3  {
+  align-self: center;
+  font-size: 3.1rem;
+  font-weight: normal;
+}
+.get-start div img  {
+  margin-top: 0px !important;
+  height: 70px;
+
+}
+.get-start div a  {
+  padding: 10px;
+  height: 70px;
 }

@@ -26,6 +26,8 @@
 .plan {
   width: 400px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow:0 10px 30px rgba(0, 0, 0, 0.05);
 }
 .plan_details_hedaer {
   background: #e9f4fe;
