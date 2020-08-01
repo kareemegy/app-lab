@@ -1,36 +1,41 @@
-let nav = document.querySelector("nav");
+let nav = document.querySelector("#hamburger_menu");
 let navMenu = document.querySelector("svg");
-let navUl = document.querySelector("#nav_ul");
-let navlis = document.querySelectorAll("#nav_ul a");
-console.log(navlis);
 let toggleMenu = false;
 
 navMenu.addEventListener("click", () => {
+  let ul = document.createElement("ul");
+  let liTextNodes = ["Home", "Features", "Pricing", "Contact"];
+
+  liTextNodes.forEach(text => {
+    let li = document.createElement("li");
+    let textNode = document.createTextNode(text);
+    let ulAttr = document.createAttribute("id");
+    ulAttr.value = "ul_menu_id";
+    let liAttr = document.createAttribute("id");
+    liAttr.value = "li_menu_id";
+    li.appendChild(textNode);
+    ul.appendChild(li);
+    ul.setAttributeNode(ulAttr);
+    li.setAttributeNode(liAttr);
+  });
+  // console.log(ul);
+  nav.appendChild(ul);
+  let navUl = document.querySelector("#ul_menu_id");
+  console.log(navUl);
   if (!toggleMenu) {
-    nav.classList.add("grid-col-2");
     navUl.classList.add("menu");
-    navUl.classList.add("flex-start-nav");
-    navUl.style.opacity = "1";
-    navlis.forEach(el => {
-      el.style.visibility = "visible";
-    });
     toggleMenu = true;
   } else {
-    nav.classList.remove("grid-col-2");
     navUl.classList.remove("menu");
-    navUl.classList.remove("flex-start-nav");
-
-    navlis.forEach(el => {
-      el.style.visibility = "hidden";
-    });
+    navUl.remove();
     toggleMenu = false;
   }
 });
 
-$(document).ready(function(){
+$(document).ready(function() {
   $(".owl-carousel").owlCarousel({
-    items:1,
-    autoplay:true
+    items: 1,
+    autoplay: true
   });
 });
 

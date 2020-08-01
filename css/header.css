@@ -9,7 +9,7 @@ header {
 
 nav {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 nav img {
@@ -117,8 +117,8 @@ section img {
   nav img {
     padding-left: 10px;
   }
-  #nav_ul a {
-    visibility: hidden;
+  #nav_ul  {
+    display: none;
   }
 
   .nav_btn {
