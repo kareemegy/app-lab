@@ -28,6 +28,9 @@
   padding: 10px;
   height: 70px;
 }
+.get-start div img {
+  margin-right: 0px;
+}
 
 @media screen and (max-width: 991px) {
   .get-start div img {
@@ -38,5 +41,15 @@
   }
   .get-start div img {
     margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .get-start {
+    flex-direction: column;
+  }
+  .get-start h3 {
+    margin-top: 70px;
+    text-align: center;
   }
 }

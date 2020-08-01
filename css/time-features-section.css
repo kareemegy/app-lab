@@ -73,12 +73,19 @@
 
   .time-features-section h2 {
     font-size: 2.9rem;
-    /* font-size: 1.9rem; */
   }
 }
 
 @media screen and (max-width: 768px) {
   .time-features-section h2 {
     font-size: 1.9rem;
+  }
+}
+
+
+@media screen and (max-width: 564px) {
+  .time-features-section h2 {
+    font-size: 1.4rem;
+    text-align: center;
   }
 }

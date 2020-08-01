@@ -99,6 +99,17 @@
   color: #00d363;
 }
 /* End plans boxes */
+@media screen and (max-width: 1280px) {
+  .all-plans{
+    justify-content: center;
+  }
+  .plan {
+    width: 323px;
+  }
+  .team_plan .plan {
+    width: 369px;
+  }
+}
 
 @media screen and (max-width: 1140px) {
   .all-plans {

@@ -1,7 +1,7 @@
 let nav = document.querySelector("nav");
 let navMenu = document.querySelector("svg");
 let navUl = document.querySelector("#nav_ul");
-let navlis = document.querySelectorAll("ul li a");
+let navlis = document.querySelectorAll("#nav_ul a");
 console.log(navlis);
 let toggleMenu = false;
 
