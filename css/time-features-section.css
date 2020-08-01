@@ -52,7 +52,7 @@
     font-weight: 500;
   }
   .section_icon img {
-   margin-right: 0px;
+    margin-right: 0px;
   }
 }
 @media screen and (max-width: 991px) {
@@ -73,6 +73,12 @@
 
   .time-features-section h2 {
     font-size: 2.9rem;
+    /* font-size: 1.9rem; */
   }
+}
 
+@media screen and (max-width: 768px) {
+  .time-features-section h2 {
+    font-size: 1.9rem;
+  }
 }

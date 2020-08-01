@@ -84,3 +84,11 @@
     margin-top: 0px;
   }
 }
+@media screen and (max-width: 768px) {
+  .details-featuresr-text h3 {
+    font-size: 1.9rem;
+  }
+  .img-flex-center img {
+    height: 426px;
+  }
+}
