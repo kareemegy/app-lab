@@ -1,7 +1,7 @@
-.get-started-bg{
-    background-image: url("../assets/img/banner/product.png");
-    background-size: cover;
-    background-position: center center;
+.get-started-bg {
+  background-image: url("../assets/img/banner/product.png");
+  background-size: cover;
+  background-position: center center;
 }
 .get-start {
   color: #fff;
@@ -15,17 +15,28 @@
   justify-content: flex-end;
   align-items: center;
 }
-.get-start h3  {
+.get-start h3 {
   align-self: center;
   font-size: 3.1rem;
   font-weight: normal;
 }
-.get-start div img  {
+.get-start div img {
   margin-top: 0px !important;
   height: 70px;
-
 }
-.get-start div a  {
+.get-start div a {
   padding: 10px;
   height: 70px;
+}
+
+@media screen and (max-width: 991px) {
+  .get-start div img {
+    position: static;
+  }
+  .get-start h3 {
+    font-size: 2.1rem;
+  }
+  .get-start div img {
+    margin-right: 0px;
+  }
 }

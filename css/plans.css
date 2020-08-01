@@ -1,5 +1,5 @@
 .plans-section {
-  margin-top: 100px;
+  margin: 100px auto 100px auto;
   color: #2c2c2c;
   padding: 0px 20px 0px 20px;
 }
@@ -16,6 +16,7 @@
 .plans-section div p {
   font-size: 1.1rem;
   font-weight: 300;
+  text-align: center;
 }
 /* Start plans boxes */
 
@@ -25,8 +26,7 @@
 }
 .plan {
   width: 400px;
-  box-shadow: 0 10px 20px 7px rgba(0, 0, 0, 0.05)
- 
+  box-shadow: 0 10px 20px 7px rgba(0, 0, 0, 0.05);
 }
 .plan_details_hedaer {
   background: #e9f4fe;
@@ -82,8 +82,8 @@
 .team_plan {
   transform: translateY(-39px);
 }
-.team_plan .plan{
-    height: 580px;
+.team_plan .plan {
+  height: 580px;
 }
 .team_plan .plan_details_hedaer {
   background: #fef4ee;
@@ -99,3 +99,14 @@
   color: #00d363;
 }
 /* End plans boxes */
+
+@media screen and (max-width: 1140px) {
+  .all-plans {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team_plan {
+    margin: 30px 0px 30px 0px;
+    transform: translateY(-0px);
+  }
+}
