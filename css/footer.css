@@ -5,8 +5,9 @@
 
 .footer {
   height: 100%;
-  display: flex;
-  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
 }
 .footer div h3 {
   font-size: 1.7rem;
@@ -19,20 +20,40 @@
   font-size: 1rem;
   font-weight: normal;
 }
+
+.flex-col-footer a img {
+  padding-top: 37px;
+}
 .h3 {
   font-size: 1rem !important;
   margin-top: 41px;
 }
-.m-90 {
-  margin-bottom: 90px !important;
-}
-.flex-col-footer {
-  align-self: center;
-}
+
 .soical-icons li a i {
   font-size: 1.5rem;
   padding: 5px;
 }
 .soical-icons {
   display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    grid-template-columns: repeat(2, auto);
+  }
+  .footer-bg {
+    height: 600px;
+  }
+  .h3_services {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 454px) {
+  .footer {
+    grid-template-columns: repeat(1, auto);
+  }
+  .footer-bg {
+    height: 1100px;
+  }
 }
