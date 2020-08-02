@@ -182,7 +182,6 @@ section img {
     background-color: white;
     color: black;
   }
-
 }
 
 @media screen and (min-width: 847px) and (max-width: 940px) {
@@ -241,6 +240,11 @@ section img {
     max-width: 576px;
   }
   .header_section h3 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .header_section h1 {
     text-align: center;
   }
 }

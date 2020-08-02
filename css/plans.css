@@ -100,7 +100,7 @@
 }
 /* End plans boxes */
 @media screen and (max-width: 1280px) {
-  .all-plans{
+  .all-plans {
     justify-content: center;
   }
   .plan {
@@ -119,5 +119,14 @@
   .team_plan {
     margin: 30px 0px 30px 0px;
     transform: translateY(-0px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .plan{
+    width: 300px !important;
+  }
+  .flex-plans h3{
+    text-align: center;
   }
 }
