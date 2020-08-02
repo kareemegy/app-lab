@@ -1,3 +1,7 @@
+
+window.onload = function() {
+  document.getElementById("loading").style.display = "none";
+};
 let nav = document.querySelector("#hamburger_menu");
 let navMenu = document.querySelector("svg");
 let toggleMenu = false;
