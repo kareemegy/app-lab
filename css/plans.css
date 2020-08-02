@@ -122,11 +122,14 @@
   }
 }
 
-@media screen and (max-width: 320px) {
-  .plan{
-    width: 300px !important;
-  }
-  .flex-plans h3{
+@media screen and (max-width: 375px) {
+  .flex-plans h3 {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .plan {
+    width: 300px !important;
   }
 }
