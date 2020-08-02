@@ -1,5 +1,4 @@
-
-window.onload = function() {
+window.onload = () => {
   document.getElementById("loading").style.display = "none";
 };
 let nav = document.querySelector("#hamburger_menu");
@@ -50,8 +49,13 @@ $(document).ready(function() {
     items: 1,
     autoplay: true
   });
-});
+}); 
 
-// window.addEventListener("load",()=>{
-//   console.log("done")
-// })
+window.onresize = () => {
+  if (window.screen.width > 991 && toggleMenu == true) {
+    let navUl = document.querySelector("#ul_menu_id");
+    navUl.classList.remove("menu");
+    navUl.remove();
+    toggleMenu = false;
+  }
+};
