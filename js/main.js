@@ -23,22 +23,16 @@ navMenu.addEventListener("click", () => {
     });
     nav.appendChild(ul);
     let navUl = document.querySelector("#ul_menu_id");
+    let liUl = document.querySelectorAll("#ul_menu_id li");
+    liUl.forEach(el => {
+      el.style.padding = "10px";
+    });
+    console.log(liUl);
     console.log(navUl);
 
     navUl.classList.add("menu");
     navUl.classList.add("flex-start-nav");
-
     toggleMenu = true;
-
-    console.log(window.screen.width);
-    console.log(toggleMenu);
-    if (window.screen.width > 991 && toggleMenu == true) {
-      // debugger;
-      let navUl = document.querySelector("#ul_menu_id");
-      navUl.classList.remove("menu");
-      navUl.remove();
-      toggleMenu = false;
-    }
   } else {
     let navUl = document.querySelector("#ul_menu_id");
     navUl.classList.remove("menu");
@@ -46,9 +40,6 @@ navMenu.addEventListener("click", () => {
     toggleMenu = false;
   }
 });
-// if (window.matchMedia("(max-width: 992px)")) {
-
-// }
 
 $(document).ready(function() {
   $(".owl-carousel").owlCarousel({
